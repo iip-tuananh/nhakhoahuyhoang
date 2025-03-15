@@ -1,0 +1,103 @@
+@media (min-width: 230px) {
+  .page__contact {
+    padding: 3rem 0; }
+    .page__contact .title__global::before {
+      display: none; }
+    .page__contact .module__content .contact {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 1.5rem;
+      grid-row-gap: 2rem; }
+      .page__contact .module__content .contact .contact__item .contact__icon {
+        width: 8.8rem;
+        height: 8.8rem;
+        border-radius: 50%;
+        border: 2px solid #999999;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto; }
+        .page__contact .module__content .contact .contact__item .contact__icon img {
+          max-width: 3.8rem;
+          -o-object-fit: contain;
+          object-fit: contain;
+          -o-object-position: center center;
+          object-position: center center; }
+      .page__contact .module__content .contact .contact__item .contact__title {
+        margin-top: 2rem;
+        margin-bottom: 0;
+        text-align: center;
+        font-weight: 300;
+        font-family: "googleSans-Light";
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto; }
+    .page__contact .module__content .contact__from {
+      padding-top: 3rem; }
+      .page__contact .module__content .contact__from .title__global {
+        text-align: left;
+        margin-left: 0;
+        margin-right: auto; }
+      .page__contact .module__content .contact__from .form input,
+      .page__contact .module__content .contact__from .form textarea {
+        width: 100%;
+        border: 1px solid #c4c4c4;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 0 1.5rem;
+        margin-bottom: 1.6rem;
+        height: 4.2rem; }
+        .page__contact .module__content .contact__from .form input::-webkit-input-placeholder, .page__contact .module__content .contact__from .form textarea::-webkit-input-placeholder {
+          color: #000; }
+        .page__contact .module__content .contact__from .form input::-moz-placeholder, .page__contact .module__content .contact__from .form textarea::-moz-placeholder {
+          color: #000; }
+        .page__contact .module__content .contact__from .form input:-ms-input-placeholder, .page__contact .module__content .contact__from .form textarea:-ms-input-placeholder {
+          color: #000; }
+        .page__contact .module__content .contact__from .form input::-ms-input-placeholder, .page__contact .module__content .contact__from .form textarea::-ms-input-placeholder {
+          color: #000; }
+        .page__contact .module__content .contact__from .form input::placeholder,
+        .page__contact .module__content .contact__from .form textarea::placeholder {
+          color: #000; }
+      .page__contact .module__content .contact__from .form .frame {
+        margin-top: 2rem;
+        height: 100%; }
+      .page__contact .module__content .contact__from .form .btn.btn__submit {
+        margin-top: 2.1rem; } }
+
+@media (min-width: 576px) {
+  .page__contact .module__content .contact {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(auto, 1fr))[4];
+    grid-template-columns: repeat(4, minmax(auto, 1fr)); }
+  .page__contact .module__content .contact__from .form {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(auto, 1fr))[2];
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+    grid-gap: 3rem; }
+    .page__contact .module__content .contact__from .form .frame {
+      margin-top: 0; } }
+
+@media (min-width: 992px) {
+  .page__contact {
+    padding: 5rem 0; }
+    .page__contact .module__content .contact__from {
+      padding-top: 5rem; } }

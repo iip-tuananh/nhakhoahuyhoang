@@ -1,0 +1,231 @@
+@media (min-width: 230px) {
+    .detail__braces .module .sidebar__group {
+        margin-top: 3rem;
+    }
+    .detail__braces .module__detail-blog .detail__group .detail__introduce-box .date-time,
+    .detail__braces .module__detail-news .detail__group .detail__introduce-box .date-time {
+        margin-top: 2rem;
+        margin-bottom: 1.8rem;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .detail__braces .module__detail-blog .detail__group .detail__introduce-box .date-time img,
+    .detail__braces .module__detail-news .detail__group .detail__introduce-box .date-time img {
+        width: 24px;
+        height: 24px;
+    }
+    .detail__braces .module__detail-blog .detail__group .detail__introduce-box .date-time .time,
+    .detail__braces .module__detail-news .detail__group .detail__introduce-box .date-time .time {
+        font-family: "googleSans-Light";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+        text-align: center;
+        color: #000000;
+        margin-left: 1.2rem;
+    }
+    .detail__braces .module__detail-blog .detail__group .detail__introduce-box .content,
+    .detail__braces .module__detail-news .detail__group .detail__introduce-box .content {
+        margin-bottom: 2rem;
+    }
+    .detail__braces .module__detail-blog .detail__group .detail__introduce-box .content img,
+    .detail__braces .module__detail-news .detail__group .detail__introduce-box .content img {
+        margin: 2rem 0;
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+    .detail__header {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.2rem;
+        line-height: 3.6rem;
+        text-transform: uppercase;
+        color: #b15c2a;
+        margin-top: 3rem;
+        margin-bottom: 0;
+    }
+    .detail-list {
+        background-color: #ebf1f2;
+        margin: 2rem 0;
+        padding: 0 1rem;
+        border: 1px solid #b3c1c5;
+    }
+    .detail-list .list-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.8rem;
+        line-height: 28px;
+        color: #006885;
+        position: relative;
+        padding-top: 3rem;
+        padding-bottom: 4px;
+    }
+    .detail-list .list-title::before {
+        content: "";
+        position: absolute;
+        width: 70px;
+        height: 4px;
+        top: 15px;
+        background-color: #f7b109;
+    }
+    .detail-list ul {
+        padding-left: 2rem;
+        list-style: none;
+    }
+    .detail-list ul li {
+        text-indent: inherit;
+        position: relative;
+    }
+    .detail-list ul li::before {
+        content: "";
+        position: absolute;
+        left: -10px;
+        top: 10px;
+        width: 4px;
+        height: 4px;
+        background-color: #006885;
+        border-radius: 50%;
+    }
+    .detail-list ul li a {
+        font-family: "googleSans-Regular";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        color: #006885;
+    }
+    .intro-title {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 1rem 0 1rem 1.6rem;
+        background-color: #ebf1f2;
+        margin: 2rem 0;
+    }
+    .intro-title img {
+        height: 20px;
+    }
+    .intro-title h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        margin-bottom: 0;
+        margin-left: 0.6rem;
+        color: #006885;
+    }
+    .content {
+        font-family: "googleSans-Light";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        text-align: justify;
+        color: #000000;
+    }
+    .content .title {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.8rem;
+        font-weight: bold;
+        line-height: 2.4rem;
+        margin-bottom: 0;
+        margin-top: 2rem;
+    }
+    .content b {
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+    }
+    .content img {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .content p {
+        margin-bottom: 0;
+    }
+    .appointment {
+        background: #ebf1f2;
+    }
+}
+
+@media (min-width: 768px) {
+    .detail__braces .module {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        grid-gap: 3rem;
+    }
+    .detail__braces .module .detail__group {
+        max-width: 770px;
+        width: 100%;
+    }
+    .detail__braces .module .sidebar__group {
+        margin-top: 8.6rem;
+    }
+    .detail__braces .module__detail-blog .sidebar__group,
+    .detail__braces .module__detail-news .sidebar__group {
+        margin-top: 3.9rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .detail__braces .module .sidebar__group {
+        margin-top: 11.1rem;
+    }
+    .detail__braces .module__detail-blog .sidebar__group,
+    .detail__braces .module__detail-news .sidebar__group {
+        margin-top: 5.7rem;
+    }
+    .detail__header {
+        margin-top: 5rem;
+        font-size: 3.5rem;
+        line-height: 4.1rem;
+    }
+    .intro-title h3 {
+        font-size: 1.7rem;
+    }
+    .detail-list {
+        padding-left: 2.3rem;
+    }
+    .detail-list .list-title {
+        font-size: 2.4rem;
+        padding-top: 4.8rem;
+    }
+    .detail-list .list-title::before {
+        top: 24px;
+    }
+    .detail-list ul {
+        padding-left: 2.3rem;
+        margin-bottom: 1.6rem;
+    }
+    .detail-list ul li::before {
+        left: -15px;
+        top: 16px;
+    }
+    .detail-list ul li a {
+        font-size: 1.7rem;
+        line-height: 3.8rem;
+    }
+    .content {
+        font-size: 1.7rem;
+        line-height: 2.4rem;
+    }
+    .content .title {
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .detail__braces {
+        position: relative;
+    }
+}

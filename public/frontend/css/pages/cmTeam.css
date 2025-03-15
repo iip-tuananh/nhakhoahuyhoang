@@ -1,0 +1,133 @@
+@media (min-width: 230px) {
+  .addon__banner .banner__item {
+    position: relative; }
+    .addon__banner .banner__item .frame {
+      padding-top: 30.9375%; } }
+
+@media (min-width: 230px) {
+  .section-team {
+    padding-top: 5.2rem;
+    padding-bottom: 3rem; }
+    .section-team .module__content .team {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: unset;
+      grid-template-columns: unset;
+      grid-auto-flow: column;
+      grid-auto-columns: 70%;
+      overflow-x: auto;
+      -webkit-scroll-snap-type: x mandatory;
+      -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+      scroll-snap-stop: always;
+      padding-left: 2rem;
+      scroll-padding: 2rem;
+      margin-left: -2rem;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch; }
+      .section-team .module__content .team::-webkit-scrollbar {
+        display: none; }
+      .section-team .module__content .team .team__item {
+        margin-left: 2rem;
+        scroll-snap-align: start;
+        text-align: center; }
+        .section-team .module__content .team .team__item .team__avatar {
+          padding-top: 88.37838%;
+          -webkit-transition: 0.3s all;
+          -o-transition: 0.3s all;
+          -moz-transition: 0.3s all;
+          transition: 0.3s all;
+          border: 1px solid transparent; }
+          .section-team .module__content .team .team__item .team__avatar::before {
+            content: "";
+            position: absolute;
+            top: 38%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            width: 50%;
+            height: 50%;
+            border-radius: 50%;
+            background: linear-gradient(90deg, #e8c67c,#bea360);
+            -webkit-transition: 0.3s all;
+            -o-transition: 0.3s all;
+            -moz-transition: 0.3s all;
+            transition: 0.3s all; }
+        .section-team .module__content .team .team__item:hover .team__avatar {
+          -webkit-transition: 0.3s all;
+          -o-transition: 0.3s all;
+          -moz-transition: 0.3s all;
+          transition: 0.3s all;
+          border: 1px solid #000000;
+          position: relative; }
+          .section-team .module__content .team .team__item:hover .team__avatar::before {
+            -webkit-transition: 0.3s all;
+            -o-transition: 0.3s all;
+            -moz-transition: 0.3s all;
+            transition: 0.3s all;
+            width: 80%;
+            height: 80%;
+            top: 50%; }
+        .section-team .module__content .team .team__item .team__name {
+          text-transform: uppercase;
+          color: #d5b66f;
+          margin-bottom: 0;
+          margin-top: 1rem;
+          width: 100%;
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+          text-overflow: ellipsis;
+          line-height: 2.4rem;
+          -webkit-line-clamp: 1;
+          max-height: -webkit-calc(2.4rem * 1);
+          max-height: -moz-calc(2.4rem * 1);
+          max-height: calc(2.4rem * 1);
+          display: -webkit-box;
+          -webkit-box-orient: vertical; } }
+
+@media (min-width: 480px) {
+  .section-team .module__content .team {
+    grid-auto-columns: 60%; } }
+
+@media (min-width: 576px) {
+  .section-team .module__content .team {
+    grid-auto-columns: 60%; } }
+
+@media (min-width: 768px) {
+  .section-team .module__content .team {
+    grid-auto-columns: 40%; } }
+
+@media (min-width: 992px) {
+  .section-team {
+    padding-top: 7.2rem;
+    padding-bottom: 5rem; } }
+
+@media (min-width: 1200px) {
+  .section-team .module__content .team {
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: unset;
+    grid-auto-columns: unset;
+    overflow-x: unset;
+    -webkit-scroll-snap-type: unset;
+    -ms-scroll-snap-type: unset;
+    scroll-snap-type: unset;
+    scroll-snap-stop: unset;
+    padding-left: 0px;
+    scroll-padding: unset;
+    margin-left: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    grid-gap: 3.1rem; }
+    .section-team .module__content .team .team__item {
+      margin-left: unset; }
+      .section-team .module__content .team .team__item .team__name {
+        font-size: 2.5rem;
+        line-height: 4.1rem;
+        max-height: -webkit-calc(4.1rem * 1);
+        max-height: -moz-calc(4.1rem * 1);
+        max-height: calc(4.1rem * 1);
+        } }

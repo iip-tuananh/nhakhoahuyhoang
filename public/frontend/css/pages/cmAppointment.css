@@ -1,0 +1,72 @@
+@media (min-width: 230px) {
+  .appointment {
+    padding: 3rem 0; }
+    .appointment .module__content .appointment .appointment__banner {
+      padding-top: 62.45614%; }
+    .appointment .module__content .appointment .appointment__item {
+      padding-top: 5.2rem; }
+      .appointment .module__content .appointment .appointment__item .appointment__not {
+        font-size: 1.4rem;
+        font-family: "googleSans-Light"; }
+      .appointment .module__content .appointment .appointment__item .form {
+        margin-top: 2rem; }
+        .appointment .module__content .appointment .appointment__item .form input,
+        .appointment .module__content .appointment .appointment__item .form select,
+        .appointment .module__content .appointment .appointment__item .form textarea {
+          border: 1px solid #c4c4c4;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          border-radius: 4px;
+          height: 4rem;
+          width: 100%;
+          padding: 0 1.5rem;
+          font-size: 1.4rem; }
+          .appointment .module__content .appointment .appointment__item .form input::-webkit-input-placeholder, .appointment .module__content .appointment .appointment__item .form select::-webkit-input-placeholder, .appointment .module__content .appointment .appointment__item .form textarea::-webkit-input-placeholder {
+            color: #000; }
+          .appointment .module__content .appointment .appointment__item .form input::-moz-placeholder, .appointment .module__content .appointment .appointment__item .form select::-moz-placeholder, .appointment .module__content .appointment .appointment__item .form textarea::-moz-placeholder {
+            color: #000; }
+          .appointment .module__content .appointment .appointment__item .form input:-ms-input-placeholder, .appointment .module__content .appointment .appointment__item .form select:-ms-input-placeholder, .appointment .module__content .appointment .appointment__item .form textarea:-ms-input-placeholder {
+            color: #000; }
+          .appointment .module__content .appointment .appointment__item .form input::-ms-input-placeholder, .appointment .module__content .appointment .appointment__item .form select::-ms-input-placeholder, .appointment .module__content .appointment .appointment__item .form textarea::-ms-input-placeholder {
+            color: #000; }
+          .appointment .module__content .appointment .appointment__item .form input::placeholder,
+          .appointment .module__content .appointment .appointment__item .form select::placeholder,
+          .appointment .module__content .appointment .appointment__item .form textarea::placeholder {
+            color: #000; }
+        .appointment .module__content .appointment .appointment__item .form textarea {
+          height: auto; }
+        .appointment .module__content .appointment .appointment__item .form .col {
+          margin-bottom: 1rem; } }
+
+@media (min-width: 768px) {
+  .appointment .module__content .appointment {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem; }
+    .appointment .module__content .appointment .appointment__item {
+      padding-top: 0.9rem; }
+    .appointment .module__content .appointment .title__global {
+      margin-left: 0;
+      margin-right: unset;
+      text-align: left;
+      margin-bottom: 0.9rem; }
+      .appointment .module__content .appointment .title__global::before {
+        left: 0;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+        top: -0.8rem; }
+    .appointment .module__content .appointment .appointment__item .row:first-child {
+      display: -ms-grid;
+      display: grid;
+      grid-gap: 1.5rem;
+      -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr); } }
+
+@media (min-width: 992px) {
+  .appointment {
+    padding: 5rem 0; } }

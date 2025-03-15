@@ -1,0 +1,204 @@
+.cslder {
+    display: block;
+    text-align: center;
+    height: 20px;
+    position: relative;
+    display: none;
+    clear: both
+}
+
+.cslder .cswrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
+}
+
+.csdot {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #00a850;
+    background: #00a850;
+    border-radius: 50%;
+    float: left;
+    margin: 0 2px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation: fx 1000ms ease infinite 0ms;
+    animation: fx 1000ms ease infinite 0ms
+}
+
+.csdot:nth-child(2) {
+    -webkit-animation: fx 1000ms ease infinite 300ms;
+    animation: fx 1000ms ease infinite 300ms
+}
+
+.csdot:nth-child(3) {
+    -webkit-animation: fx 1000ms ease infinite 600ms;
+    animation: fx 1000ms ease infinite 600ms
+}
+
+.csslder {
+    display: block;
+    text-align: center;
+    height: 20px;
+    position: relative;
+    clear: both
+}
+
+.csslder .csswrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
+}
+
+.cssdot {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #00a850;
+    background: #00a850;
+    border-radius: 50%;
+    float: left;
+    margin: 0 5px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation: fx 1000ms ease infinite 0ms;
+    animation: fx 1000ms ease infinite 0ms
+}
+
+.cssdot:nth-child(2) {
+    -webkit-animation: fx 1000ms ease infinite 300ms;
+    animation: fx 1000ms ease infinite 300ms
+}
+
+.cssdot:nth-child(3) {
+    -webkit-animation: fx 1000ms ease infinite 600ms;
+    animation: fx 1000ms ease infinite 600ms
+}
+.loadingcover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,.75);
+    z-index: 9999999;
+}
+
+.loadingcover .csslder {
+    top: 50%
+}
+
+@-webkit-keyframes fx {
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fx {
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+.fr-error {
+    color: red;
+}
+
+.new__group .new__item .new__content .new__time {
+    text-transform: uppercase;
+}
+
+.post-related .module__content .related .related__item .relate__title {
+    width: 100%;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    line-height: 2.5rem;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    color: #f7b109;
+}
+
+.post-related .module__content .related .related__item .relate__desc {
+    width: 100%;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    line-height: 2.5rem;
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.content input[type=image] {
+    width: 100% !important;
+    margin-top: 2rem;
+    height: auto !important;
+}
+
+/* .banner__global .breadcrumb ul {
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+}
+
+@media (min-width: 230px) {
+    .banner__global .breadcrumb ul {
+        display: flex; 
+        flex-wrap: nowrap;
+    }
+
+    .banner__global .breadcrumb ul li {
+        width: fit-content;
+    }
+    .banner__global .breadcrumb ul li:last-child a {
+         max-width: 97px;
+        width: 100%;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        
+    }
+} */
+
+.bs-modal .modal-frame {
+    padding: 0 15px;
+}
+
+.hk-option-button-contact{position:fixed;right:15px;bottom:15px;z-index:99}
+.hk-option-button-contact ul li{position:relative}
+.hk-option-button-contact ul li a span{background-image:url("../images/call-now.svg");background-position:center center; background-repeat:no-repeat;background-color:#28a745;width:50px;height:50px;display:inline-block;border-radius:50%;box-shadow:0 0 10px -2px rgba(0,0,0,0.7);position:relative;z-index:2}
+.hk-option-button-contact ul li a span.zalo{background-color: #2fc6ff;background-image:url("../images/zalo.svg");background-size:50%;background-repeat:no-repeat;background-position:center center}
+.hk-option-button-contact ul li a span.phone{background-color: #2fc6ff;background-image:url("../images/call-now.svg");background-size:50%;background-repeat:no-repeat;background-position:center center;-webkit-animation:phonering-alo-circle-img-anim 1s infinite ease-in-out;animation:phonering-alo-circle-img-anim 1s infinite ease-in-out;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;background-position:center center}.hk-option-button-contact ul li a span.messages{background-image:url("../images/messenger.png");background-size:50%;background-repeat:no-repeat;background-position:center center}.hk-option-button-contact ul li a strong{font-size:16px;padding-left:62px;padding-right:15px;color:#fff;border-radius:50px;position:absolute;top:0;left:0;height:50px;line-height:50px;opacity:0.8;z-index:1;font-weight:500}@-webkit-keyframes phonering-alo-circle-anim{0%{-webkit-transform:rotate(0) scale(0.5) skew(1deg);-webkit-opacity:0.1}30%{-webkit-transform:rotate(0) scale(0.7) skew(1deg);-webkit-opacity:0.5}100%{-webkit-transform:rotate(0) scale(1) skew(1deg);-webkit-opacity:0.1}}@-webkit-keyframes phonering-alo-circle-fill-anim{0%{-webkit-transform:rotate(0) scale(0.7) skew(1deg);opacity:0.6}50%{-webkit-transform:rotate(0) scale(1) skew(1deg);opacity:0.6}100%{-webkit-transform:rotate(0) scale(0.7) skew(1deg);opacity:0.6}}@-webkit-keyframes phonering-alo-circle-img-anim{0%{-webkit-transform:rotate(0) scale(1) skew(1deg)}10%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg)}20%{-webkit-transform:rotate(25deg) scale(1) skew(1deg)}30%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg)}40%{-webkit-transform:rotate(25deg) scale(1) skew(1deg)}50%{-webkit-transform:rotate(0) scale(1) skew(1deg)}100%{-webkit-transform:rotate(0) scale(1) skew(1deg)}}.hotline-phone-ring-circle{width:85px;height:85px;top:-18px;left:-17px;position:absolute;background-color:transparent;border-radius:100%;border:2px solid #e60808;-webkit-animation:phonering-alo-circle-anim 1.2s infinite ease-in-out;animation:phonering-alo-circle-anim 1.2s infinite ease-in-out;transition:all .5s;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;opacity:0.5;z-index:88888}.hotline-phone-ring-circle-fill{width:65px;height:65px;top:-7px;left:-7px;position:absolute;background-color:rgba(230,8,8,0.7);border-radius:100%;border:2px solid transparent;-webkit-animation:phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;animation:phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;transition:all .5s;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%}
+.hk-option-button-contact ul li a span.messages{background-color: #007bff;}
+.hk-option-button-contact ul li::marker {
+    font-size: 0;
+}
+.hk-option-button-contact ul {
+    display: block!important;
+}
+#footer .button-hk-contact.facebook {
+    background: #28a745;
+    margin-bottom: 5px;
+	background-image: url(../images/call-now.svg);
+	background-position: center center;
+    background-repeat: no-repeat;
+}

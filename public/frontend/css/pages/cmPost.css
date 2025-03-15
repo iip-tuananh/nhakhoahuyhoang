@@ -1,0 +1,85 @@
+@media (min-width: 230px) {
+  .post__global {
+    -webkit-transform: 0.2s all;
+    -moz-transform: 0.2s all;
+    -ms-transform: 0.2s all;
+    transform: 0.2s all; }
+    .post__global:hover {
+      -webkit-transform: 0.2s all;
+      -moz-transform: 0.2s all;
+      -ms-transform: 0.2s all;
+      transform: 0.2s all;
+      opacity: 0.8; }
+    .post__global .frame {
+      padding-top: 64.59459%;
+      overflow: hidden;
+      -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+      flex-shrink: 0; }
+      .post__global .frame img {
+        border-bottom: 1px solid #f7b109; }
+    .post__global .post__title {
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      margin-bottom: 0;
+      margin-top: 0.95rem; }
+      .post__global .post__title a {
+        color: #006885;
+        width: 100%;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        line-height: 2.4rem;
+        -webkit-line-clamp: 2;
+        height: -webkit-calc(2.4rem * 2);
+        height: -moz-calc(2.4rem * 2);
+        height: calc(2.4rem * 2);
+        display: -webkit-box;
+        -webkit-box-orient: vertical; }
+    .post__global .post__time {
+      font-family: "googleSans-Light";
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: #f7b109; }
+      .post__global .post__time .icon {
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -moz-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        margin-right: 1.2rem; }
+    .post__global .post__desc {
+      font-family: "googleSans-Light";
+      margin-top: 0;
+      width: 100%;
+      overflow: hidden;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      line-height: 2.4rem;
+      -webkit-line-clamp: 3;
+      height: -webkit-calc(2.4rem * 3);
+      height: -moz-calc(2.4rem * 3);
+      height: calc(2.4rem * 3);
+      display: -webkit-box;
+      -webkit-box-orient: vertical; }
+    .post__global .btn.btn__submit {
+      margin-top: 2rem;
+      max-width: 17rem; }
+      .post__global .btn.btn__submit:hover {
+        color: #fff; } }
+
+@media (min-width: 992px) {
+  .post__global .post__title {
+    font-size: 1.7rem; }
+  .post__global .post__time {
+    font-size: 1.7rem; }
+  .post__global .post__desc {
+    font-size: 1.7rem; } }

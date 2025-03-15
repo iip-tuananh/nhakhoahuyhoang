@@ -1,0 +1,94 @@
+@media (min-width: 230px) {
+  .post-related {
+    padding-bottom: 3rem;
+    padding-top: 1.3rem; }
+    .post-related .module__header .title__global {
+      margin-left: 0;
+      margin-right: unset; }
+      .post-related .module__header .title__global::before {
+        top: -0.8rem;
+        left: 0;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0); }
+    .post-related .module__content .related {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: unset;
+      grid-template-columns: unset;
+      grid-auto-flow: column;
+      grid-auto-columns: 80%;
+      overflow-x: auto;
+      -webkit-scroll-snap-type: x mandatory;
+      -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+      scroll-snap-stop: always;
+      padding-left: 2rem;
+      scroll-padding: 2rem;
+      margin-left: -2rem;
+      -ms-overflow-style: none;
+      scrollbar-width: none; }
+      .post-related .module__content .related::-webkit-scrollbar {
+        display: none; }
+      .post-related .module__content .related .related__item {
+        margin-left: 2rem;
+        scroll-snap-align: start; }
+        .post-related .module__content .related .related__item .frame {
+          padding-top: 53.24324%; }
+          .post-related .module__content .related .related__item .frame img {
+            border-bottom: 3px solid #f7b109; }
+        .post-related .module__content .related .related__item .relate__title {
+          text-transform: uppercase;
+          margin-top: 1.3rem; }
+          .post-related .module__content .related .related__item .relate__title a {
+            color: #f7b109; }
+        .post-related .module__content .related .related__item .relate__desc {
+          font-family: "googleSans-Light"; } }
+
+@media (min-width: 480px) {
+  .post-related .module__content .related {
+    grid-auto-columns: 70%; } }
+
+@media (min-width: 576px) {
+  .post-related .module__content .related {
+    grid-auto-columns: 45%; } }
+
+@media (min-width: 768px) {
+  .post-related .module__content .related {
+    grid-auto-columns: 40%; } }
+
+@media (min-width: 900px) {
+  .post-related {
+    padding-top: 5rem;
+    padding-bottom: 5rem; }
+    .post-related .module__content .related {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: (minmax(auto, 1fr))[3];
+      grid-template-columns: repeat(3, minmax(auto, 1fr));
+      grid-auto-flow: unset;
+      grid-auto-columns: unset;
+      overflow-x: auto;
+      -webkit-scroll-snap-type: unset;
+      -ms-scroll-snap-type: unset;
+      scroll-snap-type: unset;
+      scroll-snap-stop: unset;
+      padding-left: 0px;
+      scroll-padding: 0px;
+      margin-left: 0px;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      grid-gap: 3rem; }
+      .post-related .module__content .related .related__item {
+        margin-left: 0; } }
+
+@media (min-width: 992px) {
+  .post-related .module__content .related .related__item .relate__title {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    font-size: 2.4rem; }
+  .post-related .module__content .related .related__item .relate__desc {
+    font-size: 1.7rem;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem; } }
