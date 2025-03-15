@@ -30,7 +30,7 @@ class HomeController extends Controller
         $data['album'] = Prize::where(['status'=>1])->get(['id','image','name','link']);
         $data['founder'] = Founder::where(['status'=>1])->get(['id','image','name']);
         $data['reviewcus'] = ReviewCus::where(['status'=>1])->get();
-        $data['gioithieu'] = PageContent::where(['slug'=>'gioi-thieu'])->first(['id','title','content']);
+        $data['gioithieu'] = PageContent::where(['slug'=>'gioi-thieu','language'=>'vi'])->first(['id','title','content','image']);
         $data['homePro'] = Product::where(['status'=>1,'discountStatus'=>1])
             ->orderBy('id','DESC')
             ->select('id','category','name','discount','price','images','slug','cate_slug','type_slug','description')
